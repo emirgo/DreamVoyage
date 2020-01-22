@@ -3,4 +3,4 @@
 ## Engine is under active development and is in VERY early stages.
 Current state of the engine: <br> 
 
- ![troppy](https://i.gyazo.com/f75955134ff0a20b3f025dc62bb6a58a.png)
+ ![troppy](https://i.gyazo.com/7869aa8854037914cfc976049befe82f.png)
