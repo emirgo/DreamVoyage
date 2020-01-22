@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1000
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TopDownShooter", "TopDownShooter\TopDownShooter.csproj", "{696D62FD-6370-4316-81AC-0031F4CF0D51}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{696D62FD-6370-4316-81AC-0031F4CF0D51}.Debug|x86.ActiveCfg = Debug|x86
+		{696D62FD-6370-4316-81AC-0031F4CF0D51}.Debug|x86.Build.0 = Debug|x86
+		{696D62FD-6370-4316-81AC-0031F4CF0D51}.Release|x86.ActiveCfg = Release|x86
+		{696D62FD-6370-4316-81AC-0031F4CF0D51}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3DC5459F-8BD9-48B6-9213-3C8C5F05A137}
+	EndGlobalSection
+EndGlobal
