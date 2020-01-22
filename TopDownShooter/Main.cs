@@ -13,6 +13,8 @@ namespace TopDownShooter
         GraphicsDeviceManager graphics;
         SpriteBatch spriteBatch;
 
+        World world;
+
         public Main()
         {
             graphics = new GraphicsDeviceManager(this);
@@ -43,6 +45,8 @@ namespace TopDownShooter
             Globals.spriteBatch = new SpriteBatch(GraphicsDevice);
 
             // TODO: use this.Content to load your game content here
+
+            world = new World();
         }
 
         /// <summary>
@@ -66,6 +70,8 @@ namespace TopDownShooter
 
             // TODO: Add your update logic here
 
+            world.Update();
+
             base.Update(gameTime);
         }
 
@@ -82,6 +88,8 @@ namespace TopDownShooter
             Globals.spriteBatch.Begin(SpriteSortMode.Deferred, BlendState.AlphaBlend);
 
             // Draw everything here
+
+            world.Draw();
 
             Globals.spriteBatch.End();
 
