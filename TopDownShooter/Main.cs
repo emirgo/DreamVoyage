@@ -45,6 +45,7 @@ namespace TopDownShooter
             Globals.spriteBatch = new SpriteBatch(GraphicsDevice);
 
             // TODO: use this.Content to load your game content here
+            Globals.keyboard = new MyKeyboard();
 
             world = new World();
         }
@@ -68,9 +69,11 @@ namespace TopDownShooter
             if (GamePad.GetState(PlayerIndex.One).Buttons.Back == ButtonState.Pressed || Keyboard.GetState().IsKeyDown(Keys.Escape))
                 Exit();
 
-            // TODO: Add your update logic here
+            Globals.keyboard.Update();
 
             world.Update();
+
+            Globals.keyboard.UpdateOld();
 
             base.Update(gameTime);
         }

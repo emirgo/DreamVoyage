@@ -24,5 +24,7 @@ namespace TopDownShooter
         public static ContentManager content;
         // Draw images
         public static SpriteBatch spriteBatch;
+        // Keyboard polling
+        public static MyKeyboard keyboard;
     }
 }
