@@ -6,7 +6,7 @@ using System.Runtime.InteropServices;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("DreamVoyage Engine - Build Version 0.3.0")]
-[assembly: AssemblyProduct("TopDownShooter")]
+[assembly: AssemblyProduct("DreamVoyage")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyCompany("")]
